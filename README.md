@@ -32,9 +32,8 @@ I'll soon be uploading some of my best work here — stay tuned!
 
 ## 📫 Let’s connect
 
-- ✉️ manuelwalddev@gmail.com  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/manuelwald) *(add your real link)*  
-- 🎛️ [DJ & visuals](#) *(optional portfolio link)*
+- ✉️ manuwald16@gmail.com  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/manuel-wald-504093276/)  
 
 ---
 
