@@ -14,7 +14,7 @@ I'm a creative and technical multitasker — blending my passions for programmin
 - 🔧 Freelance Web Developer
 - 🎧 Freelance DJ
 - 👨‍🏫 Computer Science Teacher – Biblioteca Alvear (2022–2023)
-- 🎟️ Event Staff – Blow-up Experience / La Rural (2025)
+- 🎟️ Event Staff – La Rural (2025)
 - 🎬 Production Assistant – ORUGA FILMS (2023–2024)
 
 
