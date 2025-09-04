@@ -7,7 +7,7 @@ I'm a creative and technical multitasker — blending my passions for programmin
 - 🎨 UX/UI Web Development Diploma – UTN (Ongoing)
 - 💻 Programming Technician – UTN (Ongoing)
 - 🧠 B.Sc. in Computer Science – UBA (2023–2025)
-- 🏫 ESCB Carlos Pellegrini – Graduate (2022)
+- 🏫 ESCCP Carlos Pellegrini – Graduate (2022)
 
 ## 💼 Experience
 
