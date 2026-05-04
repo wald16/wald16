@@ -1,40 +1,55 @@
-# 👋 Hi, I'm Manuel Wald
+# Manuel Wald
 
-I'm a creative and technical multitasker — blending my passions for programming, UX/UI design, and music. While I dive deep into code and interface logic, I also thrive on spontaneity as a DJ. I'm always building things, learning more, and aiming to bridge tech with creativity.
+DevOps / Infraestructura · Desarrollo Web · Buenos Aires
 
-## 🎓 Education
+Trabajo en el área de infraestructura del Gobierno de la Ciudad de Buenos Aires (GCABA), donde mantengo y evoluciono stacks de monitoreo, automatización y despliegue. Fuera del trabajo, tengo un homelab que uso como laboratorio personal para romper cosas, arreglarlas, y aprender en el proceso.
 
-- 🎨 UX/UI Web Development Diploma – UTN (Ongoing)
-- 💻 Programming Technician – UTN (Ongoing)
-- 🧠 B.Sc. in Computer Science – UBA (2023–2025)
-- 🏫 ESCCP Carlos Pellegrini – Graduate (2022)
-
-## 💼 Experience
-
-- 🔧 Freelance Web Developer
-- 🎧 Freelance DJ
-- 👨‍🏫 Computer Science Teacher – Biblioteca Alvear (2022–2023)
-- 🎟️ Event Staff – La Rural (2025)
-- 🎬 Production Assistant – ORUGA FILMS (2023–2024)
-
-
-## 💡 Skills
-
-**Languages & Tools:**  
-HTML, CSS, JavaScript, TypeScript, Python, React, C++, Haskell, Git
-
-**Soft Skills:**  
-Creative thinking, audience interaction, self-driven, bilingual (ES/EN)
-
-## 📂 Projects
-
-I'll soon be uploading some of my best work here — stay tuned!
-
-## 📫 Let’s connect
-
-- ✉️ manuwald16@gmail.com  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/manuel-wald-504093276/)  
+Estudio la Tecnicatura en Programación en UTN FRBA y hago freelance de desarrollo web.
 
 ---
 
-> _“Creativo, técnico; busco la mezcla e interacción de mis universos.”_
+## Stack principal
+
+**Infraestructura & DevOps**
+Docker · Docker Compose · Prometheus · Grafana · cAdvisor · Nginx · WireGuard · CI/CD (GitLab CI / GitHub Actions)
+
+**Desarrollo**
+TypeScript · React · Next.js · NestJS · Node.js · Python · Bash
+
+**Otros**
+Linux (Ubuntu) · Git · PostgreSQL · Redis · Cloudflare Tunnels
+
+---
+
+## Proyectos destacados
+
+**Homelab**
+Servidor self-hosted con más de diez servicios corriendo en Docker Compose: Nextcloud, n8n, Portainer, RomM, Dashy, WireGuard, entre otros. Acceso remoto vía VPN con exposición selectiva a través de Cloudflare Tunnels.
+
+**Stack de monitoreo**
+Implementación de Prometheus + Grafana + cAdvisor + Redis para observabilidad de contenedores. Dashboards importados y personalizados, con variables de datasource configuradas dinámicamente.
+
+**Forma**
+App web de arte generativo táctil construida con p5.js. Desplegada con Docker + Nginx + Cloudflare Tunnels en `forma.wald16.fun`.
+
+**Simulador de Daltonismo**
+Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Single-file HTML, sin dependencias. Deployada en `daltonismo.wald16.fun`. Proyecto personal: mi viejo y yo tenemos deficiencia en la visión del color.
+
+**Chroma**
+Generador de paletas de colores con IA. Single-file, sin frameworks.
+
+**Scripts Bash**
+Scripts varios: consulta a APIs REST con `jq`, automatizaciones de sistema, y alguna que otra cosa rara hecha con cariño.
+
+---
+
+## Educación
+
+Tecnicatura en Programación — UTN FRBA (en curso)
+UX/UI Web Development — UTN (en curso)
+
+---
+
+## Contacto
+
+manuwald16@gmail.com · [LinkedIn](https://www.linkedin.com/in/manuel-wald-504093276/) · [Portfolio](https://wald16.vercel.app)
