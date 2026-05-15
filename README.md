@@ -11,7 +11,7 @@ Estudio la Tecnicatura en Programación en la UTN y hago freelance de desarrollo
 ## Stack principal
 
 **Infraestructura & DevOps**
-Docker · Docker Compose · Prometheus · Grafana · cAdvisor · Nginx · WireGuard · CI/CD (GitLab CI / GitHub Actions)
+Docker · Dynatrace · Prometheus · Grafana · cAdvisor · Nginx · WireGuard · CI/CD (GitLab CI / GitHub Actions)
 
 **Desarrollo**
 TypeScript · React · Next.js · NestJS · Node.js · Python · Bash
