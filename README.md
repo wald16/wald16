@@ -32,9 +32,6 @@ Implementación de Prometheus + Grafana + cAdvisor + Redis para observabilidad d
 **Simulador de Daltonismo**
 Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Single-file HTML, sin dependencias. Deployada en `daltonismo.wald16.fun`. Proyecto personal: mi viejo y yo tenemos deficiencia en la visión del color.
 
-**Chroma**
-Generador de paletas de colores con IA. Single-file, sin frameworks.
-
 **Scripts Bash**
 Scripts varios, automatizaciones de sistema, y alguna que otra cosa rara hecha con cariño.
 
@@ -50,4 +47,4 @@ Ciencias de la Computacion, UBA (cursada parcial)
 
 ## Contacto
 
-manuwald16@gmail.com · [LinkedIn](https://www.linkedin.com/in/manuel-wald-504093276/) · [Portfolio](https://wald16.vercel.app)
+manuwald16@gmail.com · [LinkedIn](https://www.linkedin.com/in/manuel-wald-504093276/)
