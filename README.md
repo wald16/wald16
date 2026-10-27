@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/manuel-wald-504093276/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:manuwald16@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://daltonismo.wald16.fun"><img src="https://img.shields.io/badge/wald16.fun-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Web"></a>
+  <a href="https://wald16.fun"><img src="https://img.shields.io/badge/wald16.fun-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Web"></a>
 </p>
 
 ---
@@ -90,7 +90,7 @@ Dashboards de Grafana como código (script en Python que limpia y parametriza el
 Plataforma self-hosted con más de diez servicios sobre **Docker Compose**: Nextcloud, n8n, Portainer, RomM, Dashy, entre otros. Acceso remoto por **WireGuard** y exposición selectiva con **Cloudflare Tunnels**. Toda la infra versionada y desplegada con un **pipeline de CI/CD** propio.
 
 ### Simulador de Daltonismo
-Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Un solo HTML, sin dependencias, en [`daltonismo.wald16.fun`](https://daltonismo.wald16.fun). Nació de una necesidad real: mi viejo y yo tenemos deficiencia en la visión del color.
+Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Un solo HTML, sin dependencias. Nació de una necesidad real: mi viejo y yo tenemos deficiencia en la visión del color.
 
 ### Entorno de trabajo
 Escritorio GNOME + PaperWM con una **extensión propia** para la barra, Firefox con tema minimal y terminal Ghostty con zsh. Criterio de diseño: poca información, símbolos y color, cero bloat. Incluye una CLI propia para controlar Spotify desde la terminal.
