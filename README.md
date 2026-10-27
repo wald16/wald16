@@ -15,7 +15,7 @@
 
 ## Sobre mí
 
-DevOps en el área de infraestructura del **Gobierno de la Ciudad de Buenos Aires**. Mi día a día: pipelines de CI/CD, despliegues automatizados, monitoreo y observabilidad sobre servicios de producción.
+DevOps en el área de infraestructura del **Gobierno de la Ciudad de Buenos Aires**. Mi día a día: pipelines de CI/CD, despliegues automatizados, monitoreo y observabilidad sobre servicios de producción, con foco en seguridad: gestión de accesos y secretos, hardening y mínimo privilegio.
 
 Fuera del trabajo mantengo un **homelab** self-hosted con infraestructura como código y su propio pipeline de despliegue. Es mi laboratorio para romper cosas, arreglarlas y aprender en el proceso.
 
@@ -87,7 +87,7 @@ Dashboards de Grafana como código (script en Python que limpia y parametriza el
 ## Personal
 
 ### Homelab
-Plataforma self-hosted con más de diez servicios sobre **Docker Compose**: Nextcloud, n8n, Portainer, RomM, Dashy, entre otros. Acceso remoto por **WireGuard** y exposición selectiva con **Cloudflare Tunnels**. Toda la infra versionada y desplegada con un **pipeline de CI/CD** propio.
+Plataforma self-hosted con más de diez servicios sobre **Docker Compose**: Nextcloud, n8n, Portainer, RomM, Dashy, entre otros. Sin puertos expuestos a internet: el acceso remoto va por **WireGuard** y la exposición selectiva por **Cloudflare Tunnels**. Toda la infra versionada y desplegada con un **pipeline de CI/CD** propio.
 
 ### Simulador de Daltonismo
 Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Un solo HTML, sin dependencias. Nació de una necesidad real: mi viejo y yo tenemos deficiencia en la visión del color.
