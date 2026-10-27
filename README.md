@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/manuel-wald-504093276/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:manuwald16@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://wald16.fun"><img src="https://img.shields.io/badge/wald16.fun-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Web"></a>
+  <a href="https://daltonismo.wald16.fun"><img src="https://img.shields.io/badge/wald16.fun-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Web"></a>
 </p>
 
 ---
@@ -61,22 +61,39 @@ Curso el último año de la **Tecnicatura en Programación (UTN FRBA)** y trabaj
 
 ---
 
-## Proyectos
+## Plataforma y automatización
+
+### Observabilidad multi-entorno
+Métricas con **Prometheus + Grafana + cAdvisor** y logs centralizados con **Promtail + Loki**, desplegados con Ansible sobre cuatro entornos, incluidos los brokers de **Kafka** (con `kafka_exporter`). En el camino arreglé varios bugs del rol de Promtail que afectaban a toda la flota.
+
+### Monitoreo con Icinga
+Checks definidos como código con **Icinga Director** y reglas `apply Service`, asignados por variables de host a decenas de VMs. Reescribí un plugin que lanzaba 17 invocaciones secuenciales de una CLI y daba timeout: **de ~63 s a ~19 s** por check.
+
+### CI/CD reutilizable
+Librería de templates de **GitLab CI** para que cualquier app adopte despliegues (Ansible + Docker Compose), ejecución de scripts de base de datos y QA con smoke tests sin escribir su propio pipeline. Incluye una imagen de Docker que corre scripts SQL contra **Oracle** en una única transacción, con *rollback* completo ante cualquier falla.
+
+### Repositorio RPM interno
+Build containerizado (sin VM dedicada) de una versión de Icinga 2 que no existe como paquete oficial, a partir del spec oficial. Un script compila, exporta los RPM y regenera la metadata con `createrepo`; un contenedor Nginx los sirve para instalarlos con `dnf` en el resto de las VMs.
+
+### Troubleshooting en producción
+- **Bytecode sin fuente**: encontré la causa de una caída decompilando la aplicación, ya que no había código fuente: un job programado de Spring no manejaba un `NullPointerException` y tumbaba todo el contexto.
+- **Memory leak**: workers de gunicorn que no se reciclaban acumulaban ~30 GB; reload gracioso con `kill -HUP`, sin downtime.
+
+### Automatizaciones varias
+Dashboards de Grafana como código (script en Python que limpia y parametriza el JSON), notificaciones de despliegue por Telegram, carga masiva de planes en Microsoft Planner con **CLI for Microsoft 365** y gestión de permisos en GitLab por API sobre cientos de repositorios.
+
+---
+
+## Personal
 
 ### Homelab
 Plataforma self-hosted con más de diez servicios sobre **Docker Compose**: Nextcloud, n8n, Portainer, RomM, Dashy, entre otros. Acceso remoto por **WireGuard** y exposición selectiva con **Cloudflare Tunnels**. Toda la infra versionada y desplegada con un **pipeline de CI/CD** propio.
 
-### Observabilidad de contenedores y logs
-Stack con **Prometheus + Grafana + cAdvisor + Redis** para métricas, y **Promtail + Loki** para logs centralizados. Dashboards personalizados con variables de datasource dinámicas.
-
-### Notificaciones de CI/CD a Telegram
-Plantilla reutilizable que reporta el resultado de cada despliegue por Telegram, pensada para adoptarse app por app sin tocar la lógica del pipeline.
-
-### Automatización de Planner
-Carga masiva y reproducible de planes y tareas en Microsoft Planner con **CLI for Microsoft 365** (Docker) y **Python**, validando la estructura antes de importar.
+### Simulador de Daltonismo
+Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Un solo HTML, sin dependencias, en [`daltonismo.wald16.fun`](https://daltonismo.wald16.fun). Nació de una necesidad real: mi viejo y yo tenemos deficiencia en la visión del color.
 
 ### Entorno de trabajo
-Escritorio GNOME + PaperWM con una **extensión propia** para la barra, Firefox con tema minimal y terminal Ghostty con zsh. Criterio de diseño: poca información, símbolos y color, cero bloat.
+Escritorio GNOME + PaperWM con una **extensión propia** para la barra, Firefox con tema minimal y terminal Ghostty con zsh. Criterio de diseño: poca información, símbolos y color, cero bloat. Incluye una CLI propia para controlar Spotify desde la terminal.
 
 ---
 
@@ -85,9 +102,3 @@ Escritorio GNOME + PaperWM con una **extensión propia** para la barra, Firefox 
 - **Tecnicatura en Programación** — UTN FRBA (último año)
 - **UX/UI Web Development** — UTN (finalizada)
 - **Ciencias de la Computación** — UBA (cursada parcial)
-
----
-
-<p align="center">
-  <i>Si algo se puede automatizar, lo automatizo.</i>
-</p>
