@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/manuel-wald-504093276/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:manuwald16@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://daltonismo.wald16.fun"><img src="https://img.shields.io/badge/wald16.fun-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Web"></a>
+  <a href="https://wald16.fun"><img src="https://img.shields.io/badge/wald16.fun-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Web"></a>
 </p>
 
 ---
@@ -74,9 +74,6 @@ Plantilla reutilizable que reporta el resultado de cada despliegue por Telegram,
 
 ### Automatización de Planner
 Carga masiva y reproducible de planes y tareas en Microsoft Planner con **CLI for Microsoft 365** (Docker) y **Python**, validando la estructura antes de importar.
-
-### Simulador de Daltonismo
-Herramienta web para simular distintos tipos de daltonismo sobre imágenes. Un solo HTML, sin dependencias, en [`daltonismo.wald16.fun`](https://daltonismo.wald16.fun). Nació de una necesidad real: mi viejo y yo tenemos deficiencia en la visión del color.
 
 ### Entorno de trabajo
 Escritorio GNOME + PaperWM con una **extensión propia** para la barra, Firefox con tema minimal y terminal Ghostty con zsh. Criterio de diseño: poca información, símbolos y color, cero bloat.
